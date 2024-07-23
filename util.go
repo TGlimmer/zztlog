@@ -58,7 +58,7 @@ func (l *logHandler) output(name, s string) {
 	}
 	l.out = os.Stdout
 	l.m.Unlock()
-	ptr, file, line, ok := runtime.Caller(3)
+	ptr, file, line, ok := runtime.Caller(4)
 	l.m.Lock()
 	if !ok {
 		file = "/???"
