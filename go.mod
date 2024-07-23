@@ -1,4 +1,4 @@
-module github.com/zztroot/zztlog
+module github.com/TGlimmer/zztlog
 
 go 1.14
 
